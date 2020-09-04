@@ -16,11 +16,9 @@ const AddTransaction = () => {
             'https://fcm.googleapis.com/fcm/send',
             {
                 notification: {
-                    title: "Expense Tracker by Dawood",
+                    title: "Expense Tracker",
                     body: "You Are Out Of Budget.",
-                    click_action: "",
-                    icon: 'https://github.com/dawood6/project-7a/blob/master/public/logo192x192.png?raw=true',
-                },
+                    click_action: ""   },
                 "to": token
             },
             { headers: { 'Content-Type': 'application/json', 'Authorization': 'key=AAAAI7_UDso:APA91bEp661TgU4IB5ph6F2e7zA-YD2zr28df9ZGjikqmB3lesWQI4GImcaLfAeJxm2lVqFM0aHB-HrQAuvFpurDOBa9fp59dIbPsGWe2yaSaxsA_BWfKqoO7rhTyCp3kEAWdqEehc0f' } }
